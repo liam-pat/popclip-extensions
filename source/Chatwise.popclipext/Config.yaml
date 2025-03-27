@@ -1,0 +1,14 @@
+identifier: app.chatwise.PopClipExtension
+name: ChatWise
+app:
+  name: ChatWise
+  link: https://chatwise.app
+  check installed: true
+  bundle identifiers:
+    - app.chatwise
+actions:
+    # cannot pass the custom prompt to the chatwise app
+  - title: translation
+    icon: search filled T
+    url: hatwise://chat?input={popclip text}
+    # url: chatwise://chat/5qvmm882v3?input={popclip text}&prompt=custom-transaction&model=openai-gpt-4o-mini
