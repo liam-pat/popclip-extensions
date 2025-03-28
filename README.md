@@ -28,4 +28,4 @@ extensions/
 ## Development Status
 
 The project is currently in development
-- chatwise (done, can be customed)
+- [chatwise](https://raw.githubusercontent.com/liam-pat/popclip-extensions/refs/heads/main/extensions/ChatWise.popclipextz) (done, can be customed) 
