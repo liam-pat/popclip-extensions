@@ -8,7 +8,10 @@ app:
     - app.chatwise
 actions:
     # cannot pass the custom prompt to the chatwise app
+  - title: chatwise
+    icon: search filled C
+    url: chatwise://chat?input={popclip text}
   - title: translation
     icon: search filled T
-    url: hatwise://chat?input={popclip text}
+    url: chatwise://chat?input={popclip text}&prompt=transaction
     # url: chatwise://chat/5qvmm882v3?input={popclip text}&prompt=custom-transaction&model=openai-gpt-4o-mini

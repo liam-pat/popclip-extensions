@@ -7,7 +7,7 @@ A simple PopClip extension to send selected text to the ChatWise app for process
 Select any text, click the PopClip menu button, and the ChatWise app will open with your text. You can choose between:
 
 - Default ChatWise processing
-- Translate to English (uses the translate2English prompt)
+- Translation (uses the trnasaction prompt)
 
 ## How It Works
 
